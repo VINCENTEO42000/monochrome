@@ -1,0 +1,47 @@
+ul {
+  list-style-type: none;
+}
+ /* paire: propriété valeur */
+ /* il faut attribuer la classe et se mettre dans la balise ouvrante*/
+.section1 {
+    background-image: url(asset/bg-image-hero.png);
+    color: white;
+    height: 1280px;
+    }
+
+.txt-white {
+    color : white;
+}
+
+.section3 {
+    background-image: url(asset/bg-image-hero.png);
+    color: white ;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+.bouton-noir {
+    padding :0% ;
+    background-color: grey;
+    color : white ;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+.nav-horizontal {
+    
+    display: inline-block;
+    
+}
+
+li {
+    display: inline-block ;
+    
+}
+
+.nav {
+    text-decoration:none;
+    color : black ;
+}
