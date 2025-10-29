@@ -1,21 +1,64 @@
-ul {
-  list-style-type: none;
+
+/*créer un passerelle, 3 manières pour intégréer la police : HTML et télécharger qui est mieux*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* class de test avec propriété blackgroundcolor et valeur rouge et bleu*/
+.blue {
+background-color: blue;
 }
- /* paire: propriété valeur */
- /* il faut attribuer la classe et se mettre dans la balise ouvrante*/
+
+.red {
+background-color: red;
+}
+
+
+
+/* paire: propriété valeur */
+/* il faut attribuer la classe et se mettre dans la balise ouvrante*/
 .section1 {
     background-image: url(asset/bg-image-hero.png);
-    color: white;
-    height: 1280px;
-    }
-
-.txt-white {
-    color : white;
+    height: 70vh; /* indique une hauteur de 70% de la hauteur de mon écran */
+    background-position: center; /*position de l'image*/
+    background-repeat: no-repeat; /* ne pas répéter 'image*/
+    background-size: cover; /* l'image a une dimension qui "couvre l'intégralité de son parent */
 }
+
+/*pipette chrome c'est une extention dans chrome pour trouver la couleur*/
+.txt-white {
+    color: white;
+}
+
+.supp-puces {
+    list-style-type: none; /*supprimer les puces d'une liste*/
+}
+
+a {
+    text-decoration: none; /*supprimer le souslignement*/
+    color: #000000;
+}
+
+.w33 {
+    width: 30%;
+}
+
+h1 {
+    font-family: 'rubik', sans-serif; /*les ' ' sont important*/
+}
+
+body {
+    font-family: 'rubik', sans-sherif;
+}
+
+
+
+
+
+/* TEST VINCENT */
 
 .section3 {
     background-image: url(asset/bg-image-hero.png);
-    color: white ;
+    color: white;
 }
 
 footer {
@@ -23,25 +66,29 @@ footer {
 }
 
 .bouton-noir {
-    padding :0% ;
+    padding: 0%;
     background-color: grey;
-    color : white ;
+    color: white;
     border-radius: 5px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .nav-horizontal {
-    
+
     display: inline-block;
-    
+    text-align :left ;
 }
 
 li {
-    display: inline-block ;
-    
+    display: inline-block;
+
 }
 
 .nav {
-    text-decoration:none;
-    color : black ;
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    text-align:justify;
 }
